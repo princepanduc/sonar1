@@ -12,22 +12,26 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <properties>
 
-  <sonar.projectKey>princepanduc_sonar1</sonar.projectKey>
+
+
+
+
+
+
+
+
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+
+<sonar.projectKey>princepanduc_sonar1</sonar.projectKey>
 
   <sonar.organization>princepanduc</sonar.organization>
 
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
-</properties>
-<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.projectKey>nilaydas1_cts-sonar1</sonar.projectKey>
-  <sonar.organization>nilaydas1</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <dependencies><dependency>
